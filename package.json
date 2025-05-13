@@ -1,0 +1,26 @@
+{
+  "name": "tela-office-addin",
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "validate": "office-addin-manifest validate manifest.xml",
+    "watch": "vite build --watch --mode development"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/office-js": "^1.0.91",
+    "@types/office-runtime": "^1.0.13",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "office-addin-dev-certs": "^1.5.0",
+    "office-addin-manifest": "1.5.0",
+    "typescript": "^5.0.0",
+    "unplugin-auto-import": "^19.2.0",
+    "vite": "^5.0.0"
+  }
+}
